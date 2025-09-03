@@ -16,7 +16,7 @@ number_input = st.number_input("Harga Produk:")
 jabatan_input = st.number_input("Jabatan (encoded):")
 user_input = st.text_input("Masukkan nama Anda:")
 
-# Contoh data baru
+# Contoh data baru dengan 3 fitur
 new_data = [[ 1,1,number_input]]  # Misalnya: harga_produk = 500, jabatan_encoded = 3
 
 # Menampilkan pesan sesuai input
