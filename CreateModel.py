@@ -23,7 +23,7 @@ y = df['penjualan']
 
 # Inisialisasi BinaryEncoder
 binary_encoder = BinaryEncoder(cols=['kategori_produk'])
-
+ 
 # Transformasi data
 X_encoded = binary_encoder.fit_transform(X)
 
