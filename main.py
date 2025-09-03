@@ -1,8 +1,6 @@
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from category_encoders import BinaryEncoder
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
+import pandas as pd
+import sklearn
 import joblib
 
 # Muat model dari file .pkl
