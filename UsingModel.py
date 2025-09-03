@@ -1,7 +1,7 @@
 import pickle
 
 # Muat model dari file .pkl
-with open('model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file: 
     loaded_model = pickle.load(file)    
 
 # mempredisi data baru

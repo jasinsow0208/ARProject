@@ -16,7 +16,7 @@ data = {
 
 # Konversi ke DataFrame
 df = pd.DataFrame(data)
-
+ 
 # Pisahkan fitur dan target
 X = df[['kategori_produk', 'harga_produk']] 
 y = df['penjualan']

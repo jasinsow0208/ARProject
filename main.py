@@ -3,7 +3,7 @@ import pickle
 
 # Muat model dari file .pkl
 with open('model.pkl', 'rb') as file:
-    loaded_model = pickle.load(file)
+    loaded_model = pickle.load(file) 
 
 # Judul halaman
 st.title("Prediksi Penjualan Produk")
