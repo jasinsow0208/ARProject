@@ -1,10 +1,9 @@
 import streamlit as st
-import pickle
+import joblib
 
 # Muat model dari file .pkl
-with open('model.pkl', 'rb') as file:
-    loaded_model = pickle.load(file) 
- 
+loaded_model = joblib.load('model.pkl')
+
 # Judul halaman
 st.title("Prediksi Penjualan Produk")
 
